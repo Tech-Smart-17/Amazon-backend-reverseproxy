@@ -52,3 +52,4 @@ uploads/reports/*
 
 # Environment variables
 .env
+.env.example
