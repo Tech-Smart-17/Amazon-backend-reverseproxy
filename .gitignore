@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.venv
+venv/
+ENV/
+env/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# SQLite database
+*.db
+*.sqlite3
+
+# Uploads & Logs (keep directories via .gitkeep if needed)
+uploads/chromadb_store/*
+uploads/invoice/*
+uploads/logs/*
+uploads/product_images/*
+uploads/profile_images/*
+uploads/receipts/*
+uploads/exports/*
+uploads/reports/*
+!uploads/**/.gitkeep
+
+# Environment variables
+.env
